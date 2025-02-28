@@ -2,6 +2,11 @@ body {
     font-family: 'Inter', sans-serif;
     background: linear-gradient(to bottom, #ffe9d6, #ffd1b3);
     background-color: #ffd1b3;
+ 
+}
+
+body::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari */
 }
 
 .hero {
@@ -63,6 +68,9 @@ section {
     max-width: 50px; /* Adjust size */
     height: auto;
 }
+
+ 
+
 
 @keyframes float {
     0%, 100% { transform: translateY(0); }
